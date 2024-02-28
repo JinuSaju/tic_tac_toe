@@ -41,7 +41,7 @@ function checkDraw() {
 
 function resetGame() {
     gameStatus = ['', '', '', '', '', '', '', '', ''];
-    currentPlayer = 'X';
+    currentPlayer = 'O';
     document.getElementById('status').innerText = `Player ${currentPlayer}'s turn`;
     document.querySelectorAll('.cell').forEach(cell => cell.innerText = '');
 }
